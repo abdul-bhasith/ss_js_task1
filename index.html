@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset=utf-8 />
+<title>JavaScript program to calculate multiplication and division of two numbers </title>
+<script src="ss_js_task1_vid.js"></script>
+<style>
+    button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 4px;   
+    }
+    button:hover{
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        background-color: rgb(246, 101, 101);
+    }
+    input{
+        height: 30px;
+        font-size: 20px;
+        border: 2px solid black;
+        border-radius: 4px;
+        text-align: center;
+        padding: 2px;
+        margin: 5px;
+    }
+</style>
+</head>
+<body>
+<form>
+1st Number : <input type="text" id="1stNumber" /><br>
+2nd Number: <input type="text" id="2ndNumber" /><br>
+Result :  <input type="text" id="result" /><br>
+<button type = "button" onclick="addition()">ADDITION</button> 
+<button type = "button" onclick="subtraction()">SUBTRACTION</button> 
+<button type = "button" onclick="squarenum1()">SQAURE OF NUMBER1</button> 
+<button type = "button" onclick="squarenum2()">SQUARE OF NUMBER2</button> 
+<button type = "button" onclick="minimum()">MIN</button> 
+<button type = "button" onclick="maximum()">MAX</button> 
+<button type = "button" onclick="quotient()">QUOTIENT</button> 
+<button type = "button" onclick="remainder()">REMAINDER</button> 
+<!-- <input type="button" onClick="subtraction()" Value="SUBTRACTION" /><br>
+<input type="button" onClick="squarenum1()" Value="SQUARE OF NUMBER1" />
+<input type="button" onClick="squarenum2()" Value="SQUARE OF NUMBER2" /><br>
+<input type="button" onClick="minimum()" Value="MIN" />
+<input type="button" onClick="maximum()" Value="MAX" />
+<input type="button" onClick="quotient()" Value="QUOTIENT" />
+<input type="button" onClick="remainder()" Value="REMAINDER" /> -->
+</form>
+<!-- <p>The Result is :
+<span id = "result"></span> -->
+</p>
+</body>
+</html>
